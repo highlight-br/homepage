@@ -1,4 +1,4 @@
-baseURL = "https://highlight-br.netlify.com"
+baseURL = "https://highlight-br.netlify.app"
 disableLanguages = []
 disqusShortname = ""
 googleAnalytics = ""
@@ -20,7 +20,7 @@ name = "Home"
 weight = 1
 [[menu.main]]
 URL = "about"
-name = "About"
+name = "Sobre"
 weight = 2
 [[menu.main]]
 URL = "blog"
