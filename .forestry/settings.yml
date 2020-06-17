@@ -4,8 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
   path: exampleSite/content/blog
   label: Post
@@ -13,8 +11,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Others Pages
 - type: directory
   path: exampleSite/content/about
   label: About
@@ -30,8 +26,6 @@ sections:
   label: All Pages
   create: all
   match: "**/*"
-- type: heading
-  label: Configuration
 - type: directory
   path: exampleSite
   label: Configuration
