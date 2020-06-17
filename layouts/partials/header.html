@@ -18,7 +18,7 @@
           <div class="site-title faux-heading"><a href="{{ .Site.BaseURL }}">
             <div style="display: flex; align-items: center;">
             <img src="/images/logo-281p.png" style="height: 46px;">
-            <span style="padding-left: 20px">{{ .Site.Title }}</span></div>
+            <span style="padding-left: 20px">{{ .Site.Title }}</span><span class="blink">_</span></div>
           </a></div>
       </div><!-- .header-titles -->
 
@@ -84,17 +84,17 @@
       <div class="section-inner">
         <form role="search" class="search-form" action="{{ `search`| relLangURL }}">
           <label for="search-form-1">
-            <span class="screen-reader-text">Search for:</span>
-            <input id="search-query" type="search" class="search-field" placeholder="Search &hellip;"
+            <span class="screen-reader-text">Pesquisar por:</span>
+            <input id="search-query" type="search" class="search-field" placeholder="Pesquisar &hellip;"
               name="s"/>
           </label>
-          <input type="submit" class="search-submit" value="Search" />
+          <input type="submit" class="search-submit" value="Pesquisar" />
         </form>
 
         <button class="toggle search-untoggle close-search-toggle fill-children-current-color"
           data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal"
           data-set-focus=".search-modal .search-field" aria-expanded="false">
-          <span class="screen-reader-text">Close search</span>
+          <span class="screen-reader-text">Fechar pesquisa</span>
           <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg"
             width="16" height="16" viewbox="0 0 16 16">
             <polygon fill="" fill-rule="evenodd"

@@ -17,10 +17,10 @@ URL = "contact"
 name = "Contato"
 weight = 1
 
-[[menu.main]]
-URL = "/"
-name = "Home"
-weight = 1
+# [[menu.main]]
+# URL = "/"
+# name = "Home"
+# weight = 1
 
 [[menu.main]]
 URL = "about"
@@ -37,10 +37,10 @@ URL = "contact"
 name = "Contato"
 weight = 4
 
-[[menu.main]]
-URL = "sample-page"
-name = "Sample Page"
-weight = 5
+# [[menu.main]]
+# URL = "sample-page"
+# name = "Sample Page"
+# weight = 5
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -51,7 +51,7 @@ description = "A Software Company"
 
 [params.banner]
 heading = "Venha nos conhecer!"
-image = "images/2020-landscape-1-2.png"
+image = ""
 
 [params.blog]
 heading = "Descubra como software pode ajudar a sua empresa!"
@@ -61,17 +61,17 @@ button_label = "Fale Conosco!"
 button_url = "contact"
 content = "Oferecemos diversas soluções tecnológicas para o seu negócio."
 enable = true
-title = "Fale conosco para maiores informações."
+title = "Obtenha mais informações e aperfeiçoe sua empresa."
 
 [params.footer]
 address = "123 Main Street <br> Belo Horizonte - MG"
 content = "Nós somos uma empresa fundada no polo tecnológico de Belo Horizonte."
 copyright = "Copyright &copy; 2020 Highight Software"
-hours = "Segunda à Sexta: 9:00AM–5:00PM <br> Feriados e Fim de Semana: 11:00AM–3:00PM"
+hours = "Segunda à Sexta: 9:00AM–5:00PM <br> Fim de Semana e Feriados: 11:00AM–3:00PM"
 title = "Sobre Nós"
 
 [params.gallery]
-enable = true
+enable = false
 
 [[params.gallery.gallery_item]]
 image = "images/2020-square-2.png"
@@ -87,6 +87,6 @@ twitter = "#"
 yelp = "#"
 
 [taxonomies]
-author = "Highlight Software"
+author = "author"
 category = "categories"
 tag = "tags"

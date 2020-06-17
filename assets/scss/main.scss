@@ -10,6 +10,8 @@
 
 @import url('/css/style.css');
 
+// FONTS
+
 @font-face {
 	font-family: "Nexa";
 	/* stylelint-disable-line font-weight-notation */
@@ -33,9 +35,28 @@
 
 	body {
 		font-family: "Nexa", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-	}
-
-	body * {
-		font-family: inherit !important;
+		
+		* {
+			font-family: inherit !important;
+		}
 	}
 }
+
+// BLINK
+
+.blink {
+	animation: blink 1s step-start 0s infinite;
+	-webkit-animation: blink 1s step-start 0s infinite;
+	padding-left: 5px;
+  }
+  @keyframes blink {
+	50% {
+	  opacity: 0.0;
+	}
+  }
+  @-webkit-keyframes blink {
+	50% {
+	  opacity: 0.0;
+	}
+  }
+
