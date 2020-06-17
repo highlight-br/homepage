@@ -1,0 +1,40 @@
+
+@font-face {
+	font-family: "Nexa";
+	/* stylelint-disable-line font-weight-notation */
+	font-style: normal;
+    font-display: swap;
+    font-weight: 500 900;
+	src: url(../fonts/nexa/NexaBold.otf) format("opentype");
+}
+
+
+@font-face {
+	font-family: "Nexa";
+	font-weight: 100 500;
+	/* stylelint-disable-line font-weight-notation */
+	font-style: normal;
+	font-display: swap;
+	src: url(../fonts/nexa/NexaLight.otf) format("opentype");
+}
+
+body {
+	background: #f5efe0;
+	box-sizing: border-box;
+	color: #000;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.8rem;
+	letter-spacing: -0.015em;
+	text-align: left;
+}
+
+@supports (font-variation-settings: normal) {
+
+	body {
+		font-family: "Nexa", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	}
+
+	body * {
+		font-family: inherit !important;
+	}
+}
