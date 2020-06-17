@@ -12,22 +12,22 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/about
+  path: content/about
   label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/contact
+  path: content/contact
   label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content
+  path: content
   label: All Pages
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite
+  path: ''
   label: Configuration
   create: all
   match: "*.toml"
