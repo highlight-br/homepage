@@ -12,7 +12,7 @@ title = "Highlight"
 unsafe = true
 [[menu.desktop]]
 URL = "contact"
-name = "Contact"
+name = "Contato"
 weight = 1
 [[menu.main]]
 URL = "/"
