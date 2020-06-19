@@ -4,13 +4,18 @@
 {{ partial "head.html" . }}
 
 <body class="home page-template-default page wp-embed-responsive singular enable-search-modal has-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible">
+	<div id="page-header">
 	{{ partial "header.html" . }}
+	</div>
 
 	<main id="site-content" role="main">
 		{{ block "main" . }}{{ end }}
 	</main>
 	
 	{{ partial "footer.html" . }}
+
+	{{ $jscript := resources.Get "js/main.js"  }}
+	<script src="{{ $jscript.Permalink }}"></script>
 </body>
 
 </html>
