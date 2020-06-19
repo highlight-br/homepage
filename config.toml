@@ -33,7 +33,7 @@ author = "Hightlight Software"
 description = "A Software Company"
 [params.banner]
 heading = "Venha nos conhecer!"
-image = ""
+image = "/images/logo-highlight.png"
 [params.blog]
 heading = "Descubra como software pode ajudar a sua empresa!"
 [params.call_to_action]
