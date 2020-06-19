@@ -78,3 +78,19 @@
 	padding-top: 100px;
   }
 
+
+// CARDS
+.card-box {
+	// width: 100%;
+	// display: flex;
+}
+
+.column.align-left {
+	flex-direction: column-reverse;
+
+	+ .column {
+
+	}
+}
+
+

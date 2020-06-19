@@ -50,11 +50,30 @@ copyright = "Copyright &copy; 2020 Highlight Software"
 hours = "Segunda à Sexta: 9:00AM–5:00PM <br> Fim de Semana e Feriados: 11:00AM–3:00PM"
 title = "Sobre Nós"
 [params.gallery]
+enable = false
+[[params.gallery.gallery_item]]
+image = "images/appMaking.png"
+[[params.gallery.gallery_item]]
+image = "images/websiteMaking.png"
+
+[params.cards]
 enable = true
-[[params.gallery.gallery_item]]
-image = "images/2020-square-2.png"
-[[params.gallery.gallery_item]]
-image = "images/2020-square-1.png"
+[[params.cards.item]]
+image = "images/websiteMaking.png"
+title = "Seu website!"
+align = "left"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+[[params.cards.item]]
+image = "images/softwareMaking.png"
+title = "Seu programa!"
+align = "right"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+[[params.cards.item]]
+image = "images/appMaking.png"
+title = "Seu aplicativo!"
+align = "left"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
 [params.social]
 email = "#"
 facebook = "#"
