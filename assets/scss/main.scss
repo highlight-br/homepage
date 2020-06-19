@@ -80,17 +80,13 @@
 
 
 // CARDS
-.card-box {
-	// width: 100%;
-	// display: flex;
+
+.align-left {
+	flex-direction: row;
 }
 
-.column.align-left {
-	flex-direction: column-reverse;
-
-	+ .column {
-
-	}
+.align-right {
+	flex-direction: row-reverse;
 }
 
 

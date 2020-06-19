@@ -69,10 +69,9 @@
 
       {{ if .Site.Params.cards.enable }}
       {{"<!-- CARDS -->" | safeHTML }}
-      <div class="wp-block-columns columns alignwide">
         {{ with .Site.Params.cards }}
         {{ range .item }}
-        {{ if eq .align "left" }}
+        <div class="wp-block-columns columns alignwide align-{{.align}}">
         <div class="column">
           <figure class="wp-block-image alignfull size-full" style="margin-top: 0px;">
             <img src="{{ .image | absURL }}"></figure>
@@ -85,20 +84,6 @@
             </div>
           </div>
         </div>
-        {{ else }}
-        <div class="column">
-          <div class="wp-block-group">
-            <div class="wp-block-group__inner-container">
-              <h2>{{ .title }}</h2>
-              <p>{{ .text }}</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <figure class="wp-block-image alignfull size-full" style="margin-top: 0px;">
-            <img src="{{ .image | absURL }}"></figure>
-        </div>
-        {{ end }}
         {{ end }}
         {{ end }}
       </div>
