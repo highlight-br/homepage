@@ -32,10 +32,11 @@ home = ["HTML", "RSS", "JSON"]
 author = "Hightlight Software"
 description = "A Software Company"
 [params.banner]
-heading = "Venha nos conhecer!"
-image = "/images/logo-highlight.png"
+heading = ""
+image = ""
 [params.blog]
 heading = "Descubra como software pode ajudar a sua empresa!"
+enable = false
 [params.call_to_action]
 button_label = "Fale Conosco!"
 button_url = "contact"
@@ -43,9 +44,9 @@ content = "Oferecemos diversas soluções tecnológicas para o seu negócio."
 enable = true
 title = "Obtenha mais informações e aperfeiçoe sua empresa."
 [params.footer]
-address = "123 Main Street <br> Belo Horizonte - MG"
+address = "Belo Horizonte - MG"
 content = "Nós somos uma empresa fundada no polo tecnológico de Belo Horizonte."
-copyright = "Copyright &copy; 2020 Highight Software"
+copyright = "Copyright &copy; 2020 Highlight Software"
 hours = "Segunda à Sexta: 9:00AM–5:00PM <br> Fim de Semana e Feriados: 11:00AM–3:00PM"
 title = "Sobre Nós"
 [params.gallery]

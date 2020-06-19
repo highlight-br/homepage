@@ -19,6 +19,7 @@
   </figure>
   {{end}}
 
+  {{ if .Site.Params.Blog.enable }}
   <div class="post-inner thin">
     <div class="entry-content">
       {{ with .Site.Params.blog.heading }}
@@ -44,6 +45,7 @@
         </div>
         {{ end }}
       </div>
+    {{ end }}
 <!--
       <figure class="wp-block-image alignfull size-full"><img src="images/2020-landscape-2.png" alt=""
           class="wp-image-37" />
