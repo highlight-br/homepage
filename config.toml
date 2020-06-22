@@ -19,6 +19,10 @@ URL = "contact"
 name = "Contato"
 weight = "2"
 [[menu.main]]
+URL = "/portfolio"
+name = "Portfólio"
+weight = "0"
+[[menu.main]]
 URL = "about"
 name = "Sobre"
 weight = 2
