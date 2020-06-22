@@ -13,11 +13,11 @@ unsafe = true
 [[menu.desktop]]
 URL = "portfolio"
 name = "Portfólio"
-weight = "1"
+weight = "2"
 [[menu.desktop]]
 URL = "contact"
 name = "Contato"
-weight = 1
+weight = "1"
 [[menu.main]]
 URL = "about"
 name = "Sobre"
