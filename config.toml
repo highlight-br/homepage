@@ -11,6 +11,10 @@ title = "Highlight"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
+URL = "portfolio"
+name = "Portfólio"
+weight = "1"
+[[menu.desktop]]
 URL = "contact"
 name = "Contato"
 weight = 1
