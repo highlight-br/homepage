@@ -35,14 +35,31 @@ description = "A Software Company"
 heading = ""
 image = ""
 [params.blog]
-heading = "Descubra como software pode ajudar a sua empresa!"
 enable = false
+heading = "Descubra como software pode ajudar a sua empresa!"
 [params.call_to_action]
 button_label = "Fale Conosco!"
 button_url = "contact"
 content = "Oferecemos diversas soluções tecnológicas para o seu negócio."
 enable = true
 title = "Obtenha mais informações e aperfeiçoe sua empresa."
+[params.cards]
+enable = true
+[[params.cards.item]]
+align = "left"
+image = "images/websiteMaking.png"
+text = "Uma loja para vender seus produtos ou serviços, um portfólio para mostrar seu trabalho, um blog para compartilhar suas idéias e muito mais!"
+title = "Seu website!"
+[[params.cards.item]]
+align = "right"
+image = "images/appMaking.png"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+title = "Seu aplicativo!"
+[[params.cards.item]]
+align = "left"
+image = "images/softwareMaking.png"
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+title = "Seu programa!"
 [params.footer]
 address = "Belo Horizonte - MG"
 content = "Nós somos uma empresa fundada no polo tecnológico de Belo Horizonte."
@@ -55,26 +72,6 @@ enable = false
 image = "images/appMaking.png"
 [[params.gallery.gallery_item]]
 image = "images/websiteMaking.png"
-
-[params.cards]
-enable = true
-[[params.cards.item]]
-image = "images/websiteMaking.png"
-title = "Seu website!"
-align = "left"
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-[[params.cards.item]]
-image = "images/appMaking.png"
-title = "Seu aplicativo!"
-align = "right"
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-[[params.cards.item]]
-image = "images/softwareMaking.png"
-title = "Seu programa!"
-align = "left"
-text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-
 [params.social]
 email = "#"
 facebook = "#"
