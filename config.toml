@@ -21,15 +21,15 @@ weight = "2"
 [[menu.main]]
 URL = "/portfolio"
 name = "Portfólio"
-weight = "0"
+weight = 2
 [[menu.main]]
 URL = "about"
 name = "Sobre"
-weight = 2
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 3
+weight = 1
+# [[menu.main]]
+# URL = "blog"
+# name = "Blog"
+# weight = 3
 [[menu.main]]
 URL = "contact"
 name = "Contato"
@@ -85,7 +85,7 @@ email = "#"
 facebook = "#"
 instagram = "#"
 twitter = "#"
-yelp = "#"
+# yelp = "#"
 [taxonomies]
 author = "author"
 category = "categories"
