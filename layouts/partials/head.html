@@ -10,12 +10,14 @@
   
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/animate.min.css">
+
   {{ $wpLibrary := resources.Get "css/wp-library.css" | minify }}
   <link rel="stylesheet" href="{{ $wpLibrary.Permalink }}" media="screen">
 
   {{ $style := resources.Get "scss/main.scss" | toCSS | minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
-
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favico/favicon.png` | absURL }}" type="image/x-icon">

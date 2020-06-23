@@ -1,7 +1,4 @@
 ---
 title: Portfólio
-bg_image: images/2020-landscape-2.png
-description: Fale conosco!
-
+layout: 'single'
 ---
-Faça seu orçamento hoje!

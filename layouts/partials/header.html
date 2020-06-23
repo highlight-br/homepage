@@ -1,6 +1,7 @@
 <header id="site-header" class="header-footer-group" role="banner">
   <div class="header-inner section-inner">
     <div class="header-titles-wrapper">
+      {{ if false }}
       <button class="toggle search-toggle mobile-search-toggle" data-toggle-target=".search-modal"
         data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field"
         aria-expanded="false">
@@ -14,6 +15,7 @@
           <span class="toggle-text">Search</span>
         </span>
       </button><!-- .search-toggle -->
+      {{ end }}
       <div class="header-titles">
           <div class="site-title faux-heading"><a href="{{ .Site.BaseURL }}">
             <div style="display: flex; align-items: center;">
@@ -46,6 +48,7 @@
         </ul>
       </nav><!-- .primary-menu-wrapper -->
 
+      {{ if false }}
       <div class="header-toggles hide-no-js">
         <div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
           <button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal"
@@ -61,7 +64,8 @@
             </span>
           </button><!-- .nav-toggle -->
         </div><!-- .nav-toggle-wrapper -->
-
+        {{ end }}
+        {{ if false }}
         <div class="toggle-wrapper search-toggle-wrapper">
           <button class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal"
             data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field"
@@ -75,6 +79,7 @@
             </span>
           </button><!-- .search-toggle -->
         </div>
+        {{ end }}
       </div><!-- .header-toggles -->
     </div><!-- .header-navigation-wrapper -->
   </div><!-- .header-inner -->

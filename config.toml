@@ -22,10 +22,10 @@ weight = "2"
 URL = "/portfolio"
 name = "Portfólio"
 weight = 2
-[[menu.main]]
-URL = "about"
-name = "Sobre"
-weight = 1
+# [[menu.main]]
+# URL = "about"
+# name = "Sobre"
+# weight = 1
 # [[menu.main]]
 # URL = "blog"
 # name = "Blog"
@@ -68,6 +68,50 @@ align = "left"
 image = "images/softwareMaking.png"
 text = "Todos os processos da sua empresa conectados e digitalizados, para você acompanhar cada etapa da sua gestão e produção e economizar em todos os passos!"
 title = "Sua Plataforma Digital!"
+
+[params.portfolio]
+[[params.portfolio.item]]
+title = "Automotivo"
+description = "AutoRM"
+image = "/images/portfolio/printAutorm1.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm2.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm1.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm2.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm1.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm2.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm1.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+title = "EMPRESA"
+description = "Uma empresa sobre tal"
+image = "/images/portfolio/printAutorm2.png"
+link = "https://autorm.tk/"
+[[params.portfolio.item]]
+
 [params.footer]
 address = "Belo Horizonte - MG"
 content = "Nós somos uma empresa fundada no polo tecnológico de Belo Horizonte, desenvolvendo soluções tecnológicas em plataformas web."

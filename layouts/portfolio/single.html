@@ -1,0 +1,44 @@
+{{ define "main" }}
+<article class="page type-page status-publish hentry">
+
+    <div class="post-inner">
+        <div class="entry-content">
+            <div class="container">
+                <header class="has-text-align-center header-footer-group">
+                    <div class="entry-header-inner section-inner medium">
+                    {{ with .Params.title}}
+                      <h1 class="entry-title">{{ . | markdownify }}</h1>
+                      <p>Veja os websites que já realizamos.</p>
+                    </div>
+                    {{ end }}
+                  </header>
+            </div>
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    {{ with .Site.Params.portfolio }}
+                    {{ range .item }}
+                    <div class="col-sm-4">
+                        <a href="{{ .link }}" class="portfolio-box" target="blank">
+                            <figure>
+                            <img src="{{ .image }}" class="img-responsive" alt=""></figure>
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        {{ .title }}
+                                    </div>
+                                    <div class="project-name">
+                                        {{ .description }}
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+{{ end }}
