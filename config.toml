@@ -11,10 +11,6 @@ title = "Highlight"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
-URL = "portfolio"
-name = "Portfólio"
-weight = "1"
-[[menu.desktop]]
 URL = "contact"
 name = "Contato"
 weight = "2"
@@ -33,7 +29,7 @@ weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contato"
-weight = 4
+weight = 2
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
@@ -129,7 +125,6 @@ email = "#"
 facebook = "#"
 instagram = "#"
 twitter = "#"
-# yelp = "#"
 [taxonomies]
 author = "author"
 category = "categories"
