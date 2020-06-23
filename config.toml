@@ -126,9 +126,10 @@ image = "images/appMaking.png"
 image = "images/websiteMaking.png"
 [params.social]
 email = "atendimento@highlightsoftware.com.br"
-facebook = "#"
-instagram = "#"
-twitter = "#"
+linkedin = "https://www.linkedin.com/company/highlight-events/"
+# facebook = "#"
+# instagram = "#"
+# twitter = "#"
 [taxonomies]
 author = "author"
 category = "categories"

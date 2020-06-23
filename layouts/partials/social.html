@@ -39,8 +39,16 @@
       </svg></a></li>
   {{ end }}
 
-  {{ with .Site.Params.social.email }}
+  {{ with .Site.Params.social.linkedin }}
   <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a
+      href="{{ . | safeURL }}"><span class="screen-reader-text">LinkedIn</span>
+      <svg class="svg-icon" role="img" aria-hidden="true" height="24" width="24" viewBox="0 0 1024 1024" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g>
+        <path clip-rule="evenodd" d="M0,122.149c4.383-18.461,9.229-36.716,21.183-52.122     c28.814-37.133,68.189-49.219,113.129-46.711c39.335,2.196,72.509,17.281,94.328,51.478     c47.826,74.957-1.507,169.511-91.104,175.403c-32.362,2.127-63.144-2.112-90.46-21.185     c-24.699-17.247-39.319-40.999-45.092-70.405c-0.432-2.2-1.312-4.312-1.984-6.464C0,142.146,0,132.148,0,122.149z" fill-rule="evenodd"/><path clip-rule="evenodd" d="M354.694,1000.828c0-220.153,0-439.355,0-659.203c72.5,0,144.996,0,218.593,0     c0,29.738,0,59.167,0,88.597c0.652,0.25,1.304,0.498,1.956,0.746c2.055-2.711,4.221-5.342,6.146-8.143     c44.075-64.084,105.318-95.684,182.777-97.055c54.964-0.97,106.658,9.939,152.432,41.808     c51.89,36.128,80.146,87.814,95.239,147.738c8.419,33.425,12.043,67.511,12.078,101.933     c0.125,125.286,0.076,250.575,0.074,375.864c0,2.311-0.213,4.62-0.363,7.664c-72.672,0-145.145,0-219.295,0     c0-3.789,0-7.615,0-11.443c0-112.628,0.445-225.256-0.363-337.876c-0.17-23.764-2.57-48.047-7.999-71.14     c-23.909-101.683-137.689-97.146-183.846-49.044c-23.486,24.475-38.23,52.613-38.248,87.3     c-0.061,122.955-0.133,245.91-0.201,368.866c-0.002,4.254,0,8.509,0,13.388C500.167,1000.828,427.707,1000.828,354.694,1000.828z     " fill-rule="evenodd"/><path clip-rule="evenodd" d="M231.887,1001c-73.158,0-145.34,0-218.242,0c0-219.892,0-439.299,0-659.363     c72.903,0,145.361,0,218.242,0C231.887,561.457,231.887,780.671,231.887,1001z" fill-rule="evenodd"/></g></g></svg>  
+    </a></li>
+  {{ end }}
+
+  {{ with .Site.Params.social.email }}
+  <li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a
       href="mailto:{{ . }}"><span class="screen-reader-text">Email</span><svg class="svg-icon" aria-hidden="true"
         role="img" focusable="false" width="24" height="24" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path
