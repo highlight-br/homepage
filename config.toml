@@ -11,9 +11,13 @@ title = "Highlight"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
+URL = "/portfolio"
+name = "Portfólio"
+weight = 1
+[[menu.desktop]]
 URL = "contact"
 name = "Contato"
-weight = "2"
+weight = 2
 [[menu.main]]
 URL = "/portfolio"
 name = "Portfólio"
@@ -121,7 +125,7 @@ image = "images/appMaking.png"
 [[params.gallery.gallery_item]]
 image = "images/websiteMaking.png"
 [params.social]
-email = "#"
+email = "atendimento@highlightsoftware.com.br"
 facebook = "#"
 instagram = "#"
 twitter = "#"
