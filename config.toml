@@ -76,41 +76,30 @@ description = "AutoRM"
 image = "/images/portfolio/printAutorm1.png"
 link = "https://autorm.tk/"
 [[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
+title = "Aeronáutica"
+description = "Uai, Sô! Fly!!!"
+image = "/images/portfolio/uaiPrint.png"
+link = "https://highlight-br.github.io/uai-so-fly-website/"
+[[params.portfolio.item]]
+title = "Automotivo"
+description = "AutoRM"
 image = "/images/portfolio/printAutorm2.png"
 link = "https://autorm.tk/"
 [[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
-image = "/images/portfolio/printAutorm1.png"
+title = "Aeronáutica"
+description = "Uai, Sô! Fly!!!"
+image = "/images/portfolio/uaiPrint2.png"
+link = "https://highlight-br.github.io/uai-so-fly-website/"
+[[params.portfolio.item]]
+title = "Automotivo"
+description = "AutoRM"
+image = "/images/portfolio/printAutorm3.png"
 link = "https://autorm.tk/"
 [[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
-image = "/images/portfolio/printAutorm2.png"
-link = "https://autorm.tk/"
-[[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
-image = "/images/portfolio/printAutorm1.png"
-link = "https://autorm.tk/"
-[[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
-image = "/images/portfolio/printAutorm2.png"
-link = "https://autorm.tk/"
-[[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
-image = "/images/portfolio/printAutorm1.png"
-link = "https://autorm.tk/"
-[[params.portfolio.item]]
-title = "EMPRESA"
-description = "Uma empresa sobre tal"
-image = "/images/portfolio/printAutorm2.png"
-link = "https://autorm.tk/"
-[[params.portfolio.item]]
+title = "Aeronáutica"
+description = "Uai, Sô! Fly!!!"
+image = "/images/portfolio/uaiPrint3.png"
+link = "https://highlight-br.github.io/uai-so-fly-website/"
 
 [params.footer]
 address = "Belo Horizonte - MG"
