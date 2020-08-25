@@ -10,10 +10,10 @@ theme = "twentytwenty"
 title = "Highlight"
 [markup.goldmark.renderer]
 unsafe = true
-# [[menu.desktop]]
-# URL = "/portfolio"
-# name = "Portfólio"
-# weight = 1
+[[menu.desktop]]
+URL = "/portfolio"
+name = "Portfólio"
+weight = 1
 [[menu.desktop]]
 URL = "contact"
 name = "Contato"
@@ -37,7 +37,7 @@ weight = 2
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-author = "Hightlight Software"
+author = "Hightlight"
 description = "A Software Company"
 [params.banner]
 heading = ""
